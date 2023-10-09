@@ -1,0 +1,105 @@
+body{
+    background-color: rgb(25, 25, 25);
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.title{
+    font-size: 30;
+    font-weight: bold;
+    text-align: center;
+}
+
+.move-icon{
+    height: 120px;
+}
+
+.move-btn{
+    background-color: transparent;
+    border-radius: 60px;
+    border: solid;
+    border-color:aliceblue;
+    border-width: 3px;
+    padding: 30px;
+    cursor:pointer;
+    margin-right: 10px;
+}
+
+.move-btn:hover{
+    background-color: antiquewhite;
+    transition: background 0.15s;
+}
+
+.move{
+    width: 80px;
+}
+
+.container{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.left-panel{
+    flex: 2;
+}
+
+.center-panel{
+    flex:6;
+    display: flex;
+    flex-direction: column;
+}
+
+.right-panel{
+    flex: 2;
+}
+
+.moves{
+    justify-content: center;
+    display: flex;
+    flex-direction: row;
+}
+
+.result{
+    font-size: 40px;
+    font-weight: 700;
+    text-align: center;
+}
+
+.round-moves{
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    font-weight: bold;
+    color:rgb(120, 150, 247);
+}
+
+.bottom-panel{
+    display: flex;
+}
+
+.auto-play-button, .reset-score-button{
+    flex: 1;
+    margin: 5px;
+    padding: 12px 12px;
+    cursor: pointer;
+    border: dashed;
+    border-width: 4px;
+}
+
+.reset-score-button{
+    background-color: rgb(255, 191, 112);
+}
+
+.reset-score-button:hover{
+    background-color: rgb(255, 224, 185);
+    transition: background 0.15s;
+}
+
+.auto-play-button{
+    background-color: rgb(244, 255, 197);
+}
+
+.auto-play-button:hover{
+    background-color: rgb(250, 255, 228);
+    transition: background 0.15s;
+}
