@@ -6,4 +6,4 @@ for now it has to playing modes:
 2 - Auto Play.
 
 
-We aim next to improve Ai so that it can learn from playing with a competent.
+We aim next to improve the Ai so that it can learn from playing with a competent.
